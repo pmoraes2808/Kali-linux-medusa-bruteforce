@@ -75,11 +75,14 @@ Imagem	Descrição
 ftp-attack.png	Medusa encontrando senha FTP
 dvwa-hydra.png	Hydra atacando login do DVWA
 smb-enum.png	Enumeração de usuários SMB
+
 🛡️ Medidas de Mitigação
+
 Serviço	Vulnerabilidade	Mitigação Recomendável
 FTP	Senhas fracas, acesso direto	Desativar FTP, usar SFTP, políticas de senha
 Web	Formulário vulnerável	Implementar CAPTCHA, lockout, MFA
 SMB	Reutilização de senhas fracas	Restringir enumeração, rotacionar senhas
+
 💡 Conclusão
 
 Este projeto demonstrou como ataques simples de força bruta podem comprometer serviços comuns quando medidas básicas de segurança não são aplicadas. O uso de ferramentas como Medusa em ambientes controlados auxilia na conscientização e na formação de profissionais defensivos e ofensivos.
